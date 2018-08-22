@@ -1,8 +1,8 @@
 <?php 
 /*
-Plugin Name: ALT Lab pressbook dictionary creator
+Plugin Name: ALT Lab dictionary creator
 Plugin URI:  https://github.com/
-Description: For building word banks with accessible tooltip definitions using ACF derived from https://codepen.io/geraldfullam/pen/MYpKyj
+Description: For building word banks with accessible tooltip definitions using ACF tooltips derived from https://codepen.io/geraldfullam/pen/MYpKyj
 Version:     1.0
 Author:      Tom Woodward
 Author URI:  http://bionicteaching.com

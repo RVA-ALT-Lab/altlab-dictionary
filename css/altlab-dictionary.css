@@ -196,3 +196,6 @@ button.dictionary {
 	text-transform: none;
 }
 
+.tooltip.tip-top {
+    width: 220px;
+}
