@@ -49,7 +49,7 @@ function get_the_vocab_words(){
 function add_the_vocab_words( $content ) {
 
     $words = get_the_vocab_words();
-    $content = $words . $content;
+    $content = $content . $words;
     return $content;
 }
 
