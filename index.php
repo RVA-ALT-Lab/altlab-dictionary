@@ -30,6 +30,7 @@ function load_dictionary_tooltip_script() {
 
 function get_the_vocab_words(){
     global $post;
+    $html= '';
     if( have_rows('vocabulary_bank', $post->ID) ):
         $html = '<h2 class="alt-dictionary-title">Word Bank</h2><div class="alt-dictionary">';
     while ( have_rows('vocabulary_bank') ) : the_row();
@@ -38,10 +39,11 @@ function get_the_vocab_words(){
       $html .= '<span class="tooltip tip-top" role="tooltip">' . get_sub_field('english_equivalent') . '</span></button>';
     endwhile;
       $html .=  '</div>';
+      return $html;
     else :
         // no rows found
     endif;
-    return $html;
+   
 }
 
 
